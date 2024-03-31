@@ -19,6 +19,16 @@ main {
         gap: 8px;
         flex-grow: 1;
         background-color: $gray-bg;
+
+        img {
+            height: 450px;
+        }
+
+        h1 {
+            font-size: 60px;
+            color: $primary-color;
+            text-shadow: 0px 5px 3px rgba(231, 91, 36, 0.363);
+        }
     }
 
     .form-section {
@@ -27,6 +37,7 @@ main {
 
         img {
             margin-bottom: 30px;
+            height: 100px;
         }
 
         h2 {
